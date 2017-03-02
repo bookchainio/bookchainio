@@ -637,7 +637,7 @@ $(function() {
 		BLOCKCHAIN.timeString = response.time;
 		$.ajax({
 			dataType: "json",
-			url: 'l10n/' + currentLanguage + '.json?1',
+			url: 'l10n/escrow/' + currentLanguage + '.json?1',
 			success: function(r) {
 				LNG = r;
 				changeLanguage();
